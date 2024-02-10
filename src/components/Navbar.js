@@ -78,6 +78,7 @@ const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
+  gap: 10px;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -153,13 +154,14 @@ const Navbar = () => {
           }} />
             </MobileIcon>
             <NavItems>
-                <NavLink> Home </NavLink>
+                <NavLink href='/'> Home </NavLink>
                 <NavLink href='#skills'>Skills</NavLink>
                 <NavLink href='#projects'>Projects</NavLink>
                 <NavLink href='#footer'>Contact</NavLink>
             </NavItems>
             <ButtonContainer>
-                <GithubButton>Github Profile</GithubButton>
+                <GithubButton href='https://github.com/kushal-iliger'>Github Profile</GithubButton>
+                <GithubButton href='https://drive.google.com/drive/folders/1t4u7F0Yb-QZHHbpyZ2G-CrpxAurb2TXa?usp=sharing'>Certificates</GithubButton>
             </ButtonContainer>
         
             {
@@ -180,7 +182,8 @@ const Navbar = () => {
             <MobileMenuLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileMenuLink>
-            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GithubButton>
+            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target='https://github.com/kushal-iliger'>Github Profile</GithubButton>
+            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.certificates} >Certificates</GithubButton>
           </MobileMenu>
         }
         </NavContainer>    
@@ -189,3 +192,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
