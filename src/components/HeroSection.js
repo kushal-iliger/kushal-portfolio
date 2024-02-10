@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Bio } from '../data/constants';
 import Typewriter from 'typewriter-effect';
-import heroImage from '../images/IMG_0226.JPG'
+import heroImage from '../images/IMG-20230109-WA0005 (2).jpg'
 import ImageBackgroundAnimation from './animation/ImageBackgroundAnimation'
 
 const HeroContainer = styled.div`
@@ -216,7 +216,7 @@ const HeroSection = () => {
           </HeroBg>
           <HeroInnerContainer>
             <HeroLeft>
-            <Title>Hi, I am <br /> {Bio.name}</Title>
+            <Title>Hey, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>

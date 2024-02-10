@@ -8,7 +8,8 @@ flex-direction: column;
 justify-content: center;
 position: relative;
 z-index: 1;
-align-items: center;
+align-items: center;wq
+
 `
 
 export const Wrapper = styled.div`
@@ -18,8 +19,10 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 width: 100%;
-max-width: 1100px;
-gap: 12px;
+max-width: 1300px;
+gap: 20px;
+
+
 @media (max-width: 960px) {
     flex-direction: column;
 }
@@ -30,7 +33,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: #000000; 
+  color: #FFFFFF; 
   @media (max-width: 768px) {
 margin-top: 12px;
       font-size: 32px;
@@ -53,8 +56,11 @@ const SkillsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  gap: 30px;
+  margin-bottom: 30px;
+  gap: 50px;
   justify-content: center;
+
+
 `
 
 

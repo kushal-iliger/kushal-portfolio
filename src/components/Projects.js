@@ -89,12 +89,6 @@ const [toggle, setToggle] = useState('all');
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
           }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
@@ -102,7 +96,7 @@ const [toggle, setToggle] = useState('all');
               <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
