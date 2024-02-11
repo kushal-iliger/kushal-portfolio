@@ -47,19 +47,6 @@ const Nav = styled.nav`
   }
 `;
 
-const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.2s ease-in-out;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-  @media (max-width: 768px) {
-    font-size: 1rem;
-  }
-`;
-
 const SocialMediaIcons = styled.div`
   display: flex;
   margin-top: 1rem;
@@ -83,6 +70,22 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+const Title = styled.div`
+  font-weight: 500;
+  font-size: 40px;
+  color: ${({ theme }) => theme.text_primary};
+  line-height: 68px;
+  @media (max-width: 960px) {
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+`;
+
 function Footer() {
     const emailAddress = "ij.kushal@gmail.com";
 
@@ -90,9 +93,7 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
+            <Title>Let's get in touch</Title>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>

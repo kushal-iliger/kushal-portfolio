@@ -1,0 +1,5 @@
+TO DO LIST
+
+- Add skills and images from firebase
+- modify the projects - description
+- Deploy with the help of netlify website. 
