@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import styled, {ThemeProvider} from 'styled-components';
 import { useState, useEffect } from "react";
