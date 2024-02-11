@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import styled, {ThemeProvider} from 'styled-components';
 import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
+import { darkTheme, lightTheme } from './utils/Themes'
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection'
 import Skills from './components/Skills'
