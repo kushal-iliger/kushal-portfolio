@@ -1,13 +1,13 @@
 export const Bio = {
     name: "Kushal Iliger",
     roles: [
-      "Front end Developer"
+      "Front-end Developer"
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/kushal-iliger",
     resume:
-      "https://drive.google.com/file/d/18qipo3aOgLYgUrXE5K8BgvciPLp97DRi/view?usp=sharing",
+      "https://docs.google.com/document/d/13q3wznPXgvj5BlIkonRWO9mtHCK2-9CS/edit?usp=sharing&ouid=111345552635081450805&rtpof=true&sd=true",
     linkedin: "https://www.linkedin.com/in/kushal-iliger-5595b0175/",
     certificates: "https://drive.google.com/drive/folders/1t4u7F0Yb-QZHHbpyZ2G-CrpxAurb2TXa?usp=sharing"
   };
@@ -20,6 +20,10 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "Vue Js",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
         },
         {
             name: "React Native",
@@ -161,7 +165,7 @@ Upcoming full stack web app
   */
   export const projects = [
     {
-      id: 11,
+      id: 4,
       title: "SAD Project",
       description:
         "Contributed to a team project for football player management. Built React components for frontend and managed MongoDB databases with Node.js backend. Seamlessly integrated technologies for efficient data handling and user experience.",
@@ -179,8 +183,8 @@ Upcoming full stack web app
       github: "https://github.com/rishavchanda/DecisionHub",
     },
     {
-      id: 9,
-      title: " Innovative Chat Application with Redis",
+      id: 5,
+      title: "Fullstack Chat Application with Redis",
       description:
         "Crafted a dynamic chat application using EJS for frontend rendering and Redis for efficient database caching. Introduced a standout feature: group chat functionality. Engineered seamless communication channels, offering users an immersive and collaborative experience in real-time conversations.",
       image:
@@ -189,10 +193,9 @@ Upcoming full stack web app
         "EJS","Redis","NodeJS"
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
     },
     {
-      id: 0,
+      id: 6,
       title: "Website for Local Pizza shop",
       description:
         "Developed a responsive web application tailored for a neighborhood pizza shop, commissioned to perfection. Employed Redux Forms for streamlined data management and incorporated captivating animations to enhance user engagement. Seamlessly blending functionality with aesthetics, it's a delightful digital storefront for pizza aficionados.",
@@ -200,7 +203,15 @@ Upcoming full stack web app
         "https://firebasestorage.googleapis.com/v0/b/portfolio-kushal-ij.appspot.com/o/Screenshot%202021-08-12%20124513.jpg?alt=media&token=54f8875d-da3c-497e-a621-770f947203fe",
       tags: ["React Js", "Redux", "React-forms", "Type animation"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
+      
+    },
+    {
+      id: 7,
+      title: "A chat applicaiton with Vue.js",
+      description:"Experience the next level of communication with our Vue JS chat application, which takes advantage of ChatEngine.io's simple API connectivity and user management. Enjoy read receipts, individual and group chats, image uploads, and chat delete options. Improve your communications experience with advanced capabilities and an easy design.",
+      image:"https://firebasestorage.googleapis.com/v0/b/portfolio-kushal-ij.appspot.com/o/screenshot-%20working%20.png?alt=media&token=5aab5d1d-3e94-4a6d-b871-92fd950947e4",
+      tags: ["Vue Js", "chatengine.io", "axios", "veaury"],
+      category: "web app",
       
     },
     {
