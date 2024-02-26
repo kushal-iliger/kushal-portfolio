@@ -1,4 +1,5 @@
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 import styled, {ThemeProvider} from 'styled-components';
 import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes'
@@ -40,6 +41,7 @@ function App() {
           <Footer />
         </Body>
       </Router>
+      <Analytics/>
     </ThemeProvider>
   );
 }
