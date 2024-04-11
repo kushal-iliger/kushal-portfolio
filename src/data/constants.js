@@ -5,7 +5,7 @@ export const Bio = {
       "Software Developer"
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I am a motivated and adaptable individual who is always eager to take on new challenges. I am passionate about learning and committed to delivering high-quality results. With a positive approach and a growth mindset, I am prepared to make a significant contribution and achieve big things.",
     github: "https://github.com/kushal-iliger",
     resume:
       "https://docs.google.com/document/d/1kiQsEka4lJntpSXMMmQW4IdGnsfSG_Ne/edit",
