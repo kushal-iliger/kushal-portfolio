@@ -5,11 +5,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Bio } from '../data/constants';
 
 const FooterContainer = styled.div`
-  color: #191924;
+  color: #9146B6;
   width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
+  background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 13.33%, rgba(150, 0, 225, 0.05) 27.07%);
 `;
 
 

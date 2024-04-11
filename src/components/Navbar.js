@@ -167,21 +167,18 @@ const Navbar = () => {
             {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
-            <MobileMenuLink href="#about" onClick={() => {
+            <MobileMenuLink href="/" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileMenuLink>
             <MobileMenuLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileMenuLink>
-            <MobileMenuLink href='#experience' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Experience</MobileMenuLink>
             <MobileMenuLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileMenuLink>
-            <MobileMenuLink href='#education' onClick={() => {
+            <MobileMenuLink href='#footer' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Education</MobileMenuLink>
+            }}>Contact</MobileMenuLink>
             <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target='https://github.com/kushal-iliger'>Github Profile</GithubButton>
             <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.certificates} >Certificates</GithubButton>
           </MobileMenu>
